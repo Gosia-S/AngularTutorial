@@ -1,19 +1,25 @@
 /* MessagesComponent's private CSS styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {font-family: "Montserrat", sans-serif;}
+accent {color: #c69a50;}
+
+hr {margin: 20px 0; height: 1px;
+  color: #c69a50;
+  background-color: #c69a50;
+  border: none;}
+
 h2 {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  color: #c69a50;
+  font-size: 1rem;
 }
 body {
   margin: 2em;
 }
 body, input[text], button {
   color: crimson;
-  font-family: Cambria, Georgia;
 }
 
 button.clear {
-  font-family: Arial;
   background-color: #eee;
   border: none;
   padding: 5px 10px;

@@ -1,4 +1,9 @@
 /* HeroDetailComponent's private CSS styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {font-family: "Montserrat", sans-serif;}
+strong {color: #c69a50;}
+
+
 label {
   display: inline-block;
   width: 3em;

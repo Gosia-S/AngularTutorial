@@ -1,4 +1,8 @@
 /* DashboardComponent's private CSS styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {font-family: "Montserrat", sans-serif;}
+accent {color: #c69a50;}
+
 [class*='col-'] {
   float: left;
   padding-right: 20px;
@@ -33,13 +37,13 @@ h4 {
   color: #eee;
   max-height: 120px;
   min-width: 120px;
-  background-color: #607D8B;
+  background-color: #262626;
   border-radius: 2px;
 }
 .module:hover {
   background-color: #EEE;
   cursor: pointer;
-  color: #607d8b;
+  color: #c69a50;;
 }
 .grid-pad {
   padding: 10px 0;

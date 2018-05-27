@@ -1,4 +1,10 @@
 /* HeroSearch private styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {font-family: "Montserrat", sans-serif;}
+accent {color: #c69a50;}
+
+label {font-size: 0.8rem;}
+
 .search-result li {
   border-bottom: 1px solid gray;
   border-left: 1px solid gray;
@@ -30,8 +36,8 @@
 #search-box {
   width: 200px;
   height: 20px;
+  border: solid 1px #c69a50;
 }
-
 
 ul.search-result {
   margin-top: 0;
